@@ -61,7 +61,16 @@ public class Empleado {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-public void CalcularSuma(){
-    int suma =1;
-}
+
+    public void CalcularSuma() {
+        int suma = 1;
+    }
+
+    public void MostrarDatos() {
+        System.out.println("ID: " + this.id);
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Apellido: " + this.apellido);
+        System.out.println("Direccion: " + this.direccion);
+
+    }
 }
