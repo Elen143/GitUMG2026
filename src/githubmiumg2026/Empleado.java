@@ -61,5 +61,7 @@ public class Empleado {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-
+public void CalcularSuma(){
+    int suma =1;
+}
 }
